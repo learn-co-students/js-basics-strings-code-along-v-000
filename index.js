@@ -1,4 +1,4 @@
-let currentUser = "Lara";
-let welcomeMessage = "Welcome to Flatbook, " + currentUser + "!";
-let excitedWelcomeMessage = welcomeMessage.toUpperCase();
-let shortGreeting = "Welcome, " + currentUser + "!";
+const currentUser = "Lara";
+const welcomeMessage = `Welcome to Flatbook, ${currentUser}!`;
+const excitedWelcomeMessage = welcomeMessage.toUpperCase();
+const shortGreeting = `Welcome, ${currentUser.slice(0, 1)}!`;
