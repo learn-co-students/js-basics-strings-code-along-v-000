@@ -21,3 +21,11 @@ excitedWelcomeMessage = "WELCOME TO FLATBOOK, "
  shortGreeting = "Welcome, " + currentUser[0];
 
  shortGreeting = "Welcome, " + currentUser[0] + "!";
+
+ const scurrentUser = "Grace Hopper";
+
+ const swelcomeMessage = "Welcome to Flatbook, ${currentUser}!";
+
+ const sexcitedWelcomeMessage = welcomeMessage.toUpperCase();
+
+ const sshortGreeting = "Welcome,${currentUser.slice(0, 1}!";
