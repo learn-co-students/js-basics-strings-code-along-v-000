@@ -1,7 +1,7 @@
 // Write your code in this file!
-var currentUser = "Nadia";
-// const welcomeMessage = "Welcome to Flatbook, " + currentUser + "!";
-const welcomeMessage = `Welcome to Flatbook, ${currentUser}!`;
-
-const excitedWelcomeMessage = "WELCOME TO FLATBOOK, " + currentUser.toUpperCase() + "!";
-const shortGreeting = "Welcome, " + currentUser[0] + "!";
+let currentUser = "Nadia";
+//Concatenation
+const welcomeMessage = "Welcome to Flatbook, " + currentUser + "!";
+//Interpolation
+const excitedWelcomeMessage = welcomeMessage.toUpperCase();
+const shortGreeting = `Welcome, ${currentUser.slice(0,1)}!`;
