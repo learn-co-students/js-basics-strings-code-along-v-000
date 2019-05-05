@@ -26,5 +26,8 @@
   "homepage": "https://github.com/learn-co-curriculum/js-basics-strings-code-along#readme",
   "devDependencies": {
     "learn-browser": "^0.1.13"
+  },
+  "dependencies": {
+    "formidable": "^1.2.1"
   }
 }
